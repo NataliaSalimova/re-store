@@ -14,7 +14,7 @@ export default class BookstoreService {
             price: 52,
             coverImage: '/test2'
         },
-    ]
+    ];
     getBooks() {
         return new Promise((resolve)=> {
             setTimeout(()=> {
